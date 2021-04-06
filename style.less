@@ -1,0 +1,20 @@
+td:before {
+  content: attr(data-name);
+  color: #292929;
+  font-weight: 700;
+  width: 78%;
+  text-align: left !important;
+}
+
+@media (min-width: 671px) {
+  td:before {
+    content: "";
+  }
+}
+
+
+@media (max-width: 670px) {
+  th {
+    display: none;
+  }
+}
